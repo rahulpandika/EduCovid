@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "973686708517",
-    "project_id": "edu-covid-e37fe",
-    "storage_bucket": "edu-covid-e37fe.appspot.com"
+    "project_number": "272830914912",
+    "project_id": "capstoneproject-d47bc",
+    "storage_bucket": "capstoneproject-d47bc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:973686708517:android:792d775e7c042edc1922cc",
+        "mobilesdk_app_id": "1:272830914912:android:bd2052eb9cf97ce1e23e05",
         "android_client_info": {
-          "package_name": "com.example.educovid"
+          "package_name": "com.capstoneproject.csd190"
         }
       },
       "oauth_client": [
         {
-          "client_id": "973686708517-553oo2pk6p5vrlrmuatm5rq5vug2qg7t.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.educovid",
-            "certificate_hash": "a3d23c3ee96219e3369799682a3a821cb759e5e5"
-          }
-        },
-        {
-          "client_id": "973686708517-f80sbcl4m2cms8covni44an68nmkib6u.apps.googleusercontent.com",
+          "client_id": "272830914912-rq3652hh2mk9dn9tkvqcd29fu7k027ec.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBELbL4B5PqbvLFgZT6e3Zjw2EdzbpFGyk"
+          "current_key": "AIzaSyChXmtrHrLFX0SjjgVGJ6iR7MUdwWJYZ7U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "973686708517-f80sbcl4m2cms8covni44an68nmkib6u.apps.googleusercontent.com",
+              "client_id": "272830914912-rq3652hh2mk9dn9tkvqcd29fu7k027ec.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

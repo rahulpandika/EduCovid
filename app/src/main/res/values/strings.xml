@@ -1,7 +1,73 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">EduCovid</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="created">Powered by EduCovid</string>
+    <string name="image_view">Image View</string>
+
+    <!-- Info Apps -->
+    <string name="authors">Authors: Ahmad Yulian Dinata dan Rahul Pandika</string>
+    <string name="btn_back">Kembali</string>
+    <string name="desc_apps">EduCovid (Education Covid-19) adalah Aplikasi berisi informasi seputar Covid-19 seperti gejala dialami saat covid serta membantu memberikan edukasi kesehatan kepada masyarakat berupa tips pencegahan menghadapi Covid-19.</string>
+    <string name="info_apps">Info Apps</string>
+    <string name="version">Version 1.1.1</string>
+
+    <!-- Login & Register -->
+    <string name="email">Alamat E-mail</string>
     <string name="login">LOGIN</string>
+    <string name="logout">LOGOUT</string>
+    <string name="password">Password</string>
     <string name="register">SIGN UP</string>
+    <string name="tv_login">Sudah punya akun? Geser untuk login</string>
+    <string name="tv_signup">Belum punya akun? Daftarkan dirimu</string>
+    <string name="tv_welcome">Hello,</string>
+    <string name="username">Username</string>
+
+    <!-- Logout -->
+    <string name="account">Akun</string>
+
+    <!-- Beranda -->
+    <string name="home">Beranda</string>
+    <string name="title_header">Dirumah Saja, Stay Healthy</string>
+    <string name="description_header">Kebanyakan orang yang terinfeksi virus COVID-19 akan mengalami penyakit pernapasan ringan hingga sedang dan memerlukan perawatan khusus. Orang tua, dan mereka yang memiliki masalah medis yang mendasarinya</string>
+    <string name="how_to_protect">BAGAIMANA MELINDUNGINYA</string>
+    <string name="symptoms">Gejala</string>
+    <string name="title_about_header">Tentang Wabah Corona Virus (COVID-19)</string>
+    <string name="fatigue">Kelelahan</string>
+    <string name="dryCough">Batuk kering</string>
+    <string name="diarrhea">Diare</string>
+    <string name="fever">Demam (suhu tubuh di atas 38 derajat Celsius)</string>
+    <string name="headache">Sakit kepala</string>
+    <string name="about_description">Penyakit Coronavirus (COVID-19) adalah penyakit menular yang disebabkan oleh virus korona yang baru ditemukan. Kebanyakan orang yang terinfeksi COVID-19, virus akan mengalami penyakit pernafasan ringan sampai sedang dan sembuh tanpa memerlukan perawatan khusus. Orang tua dan mereka yang memiliki masalah medis mendasar seperti penyakit kardiovaskular.</string>
+    <string name="about_next_description">Virus COVID-19 menyebar terutama melalui tetesan air liur atau keluarnya cairan dari hidung saat orang yang terinfeksi batuk atau bersin, jadi penting bagi Anda untuk juga mempraktikkan etika pernapasan.</string>
+
+    <!-- Info Covid -->
+    <string name="info_covid">Info Covid</string>
+    <string name="case_covid">Kasus</string>
+    <string name="tv_case_covid">Total kasus \nCovid di Indonesia</string>
+    <string name="tv_case">000</string>
+    <string name="tv_case_healed">Total kasus \nSembuh di Indonesia</string>
+    <string name="tv_case_dead">Total kasus \nMeninggal di Indonesia</string>
+
+    <!-- Pencegahan -->
+    <string name="prevention">Pencegahan</string>
+    <string name="prevention_title_header">Langkah Mencegah Penularan Virus Corona</string>
+    <string name="prevention_description_header">Ada banyak bukti yang menunjukkan jika SARS-CoV-2, atau COVID-19, dapat menular dengan mudah ke banyak orang. Penyakit ini menyebabkan penyakit yang dapat mengancam nyawa saat menyerang beberapa orang. Selain itu, virus corona juga dapat bertahan beberapa saat di udara dan lebih lama lagi, ketika menempel di permukaan suatu benda. Risiko untuk terpapar lebih tinggi saat menyentuh benda tersebut, setelah itu menyentuh mulut, hidung, atau mata. </string>
+    <string name="washing_hands">Mencuci Tangan</string>
+    <string name="mask">Memakai Masker</string>
+    <string name="distance">Menjaga Jarak</string>
+    <string name="cough">Selalu tutupi Batuk atau Bersin anda</string>
+    <string name="mobility">Mengurangi Mobilitas</string>
+    <string name="prevention_description_header2">Diketahui juga jika virus corona berkembang biak lebih cepat di dalam tubuh, meskipun tidak menimbulkan gejala apa pun. Potensi untuk menularkan banyak orang karena merasa diri sehat lebih tinggi dibandingkan seseorang dengan gejala. Maka dari itu, penting untuk mengetahui cara yang paling tepat sebagai pencegahan dari COVID-19. 5M adalah metode gagasan pemerintah untuk menekan kenaikan angka dari COVID-19, antara lain:</string>
+    <string name="prevention_title_header3">Bagaimana cara mencegah penularan virus corona?</string>
+    <string name="prevention_description_header3">Beberapa cara yang bisa dilakukan untuk mencegah penularan virus ini adalah:</string>
+    <string name="prevention_1">Mencuci tangan dengan benar secara teratur menggunakan air dan sabun atau hand-rub berbasis alkohol. Mencuci tangan sampai bersih selain dapat membunuh virus yang mungkin ada di tangan kita, tindakan ini juga merupakan salah satu tindakan yang mudah dan murah. Sekitar 98% penyebaran penyakit bersumber dari tangan. Karena itu, menjaga kebersihan tangan adalah hal yang sangat penting.</string>
+    <string name="prevention_2">Gunakan masker dengan benar hingga menutupi mulut dan hidung ketika Anda sakit atau saat sedang keluar rumah.</string>
+    <string name="prevention_3">Jaga jarak setidaknya 1 meter dengan orang lain. Jika anda terlalu dekat, anda dapat menghirup droplet dari orang yang mungkin menderita COVID-19.</string>
+    <string name="prevention_4">Ketika batuk dan bersin, tutup hidung dan mulut Anda dengan tisu atau lengan atas bagian dalam (bukan dengan telapak tangan).</string>
+    <string name="prevention_5">Hindari bepergian ke luar rumah saat Anda merasa kurang sehat, terutama jika Anda merasa demam, batuk dan sulit bernapas. Segera hubungi petugas kesehatan terdekat, dan mintalah bantuan mereka. Sampaikan pada petugas jika dalam 14 hari sebelumnya Anda pernah melakukan perjalanan terutama ke negara atau wilayah terjangkit, atau pernah kontak erat dengan orang yang memiliki gejala yang sama. Ikuti arahan dari petugas kesehatan setempat.</string>
+
+    <!-- Lokasi Penyebaran -->
+    <string name="maps">Lokasi Penyebaran Virus Corona</string>
+    <string name="amount_treated" tools:ignore="PluralsCandidate">Total dirawat adalah %1$,d orang</string>
+    <string name="satellite_maps">Peta Satellite</string>
+    <string name="terrain_maps">Peta Terrain</string>
 </resources>
