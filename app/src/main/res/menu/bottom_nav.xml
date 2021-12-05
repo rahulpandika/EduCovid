@@ -13,6 +13,10 @@
         android:icon="@drawable/ic_prevention"
         android:title="@string/prevention" />
     <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="@string/news" />
+    <item
         android:id="@+id/navigation_account"
         android:icon="@drawable/ic_account"
         android:title="@string/account" />

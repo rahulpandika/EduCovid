@@ -22,6 +22,12 @@
         tools:layout="@layout/fragment_prevention" />
 
     <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.capstoneproject.csd190.ui.fragment.NewsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
         android:id="@+id/navigation_account"
         android:name="com.capstoneproject.csd190.ui.fragment.AccountFragment"
         android:label="@string/account"
