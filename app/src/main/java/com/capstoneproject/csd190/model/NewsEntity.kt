@@ -7,6 +7,7 @@ import kotlinx.android.parcel.Parcelize
 data class NewsEntity(
     var newsId : Int,
     var title : String,
+    var source : String,
     var description: String,
     var imgSrc: String,
     var text : String

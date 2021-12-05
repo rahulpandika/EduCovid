@@ -3,23 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/EduCovid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/button_shape.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/custom_email_icon.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/custom_input.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/custom_password_icon.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/home_shape.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/ic_email.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/ic_email_focused.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15989583333333332" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/ic_password.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/drawable/ic_password_focused.xml" value="0.290625" />
-        <entry key="..\:/EduCovid/app/src/main/res/layout/activity_home.xml" value="0.176" />
-        <entry key="..\:/EduCovid/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/EduCovid/app/src/main/res/layout/activity_detail_news.xml" value="0.13645833333333332" />
         <entry key="..\:/EduCovid/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/EduCovid/app/src/main/res/layout/activity_register.xml" value="0.176" />
-        <entry key="..\:/EduCovid/app/src/main/res/layout/fragment_login.xml" value="0.2" />
-        <entry key="..\:/EduCovid/app/src/main/res/layout/fragment_sign_up.xml" value="0.14375" />
+        <entry key="..\:/EduCovid/app/src/main/res/layout/content_detail_news.xml" value="0.13645833333333332" />
+        <entry key="..\:/EduCovid/app/src/main/res/layout/fragment_account.xml" value="0.13645833333333332" />
+        <entry key="..\:/EduCovid/app/src/main/res/layout/fragment_case_covid.xml" value="0.13645833333333332" />
+        <entry key="..\:/EduCovid/app/src/main/res/layout/fragment_home.xml" value="0.13645833333333332" />
+        <entry key="..\:/EduCovid/app/src/main/res/layout/fragment_news.xml" value="0.13645833333333332" />
+        <entry key="..\:/EduCovid/app/src/main/res/layout/item_news.xml" value="0.1" />
+        <entry key="..\:/EduCovid/app/src/main/res/menu/bottom_nav.xml" value="0.13645833333333332" />
+        <entry key="..\:/EduCovid/app/src/main/res/menu/menu_main.xml" value="0.13645833333333332" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/drawable-v24/ic_error.xml" value="0.15989583333333332" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/drawable-v24/ic_loading.xml" value="0.15989583333333332" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/drawable-v24/ic_refresh_black.xml" value="0.15989583333333332" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/activity_detail_news.xml" value="0.14010416666666667" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/activity_main.xml" value="0.14010416666666667" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/content_detail_news.xml" value="0.176" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/fragment_case_covid.xml" value="0.2" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/fragment_dialog.xml" value="0.14010416666666667" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/fragment_home.xml" value="0.14010416666666667" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/fragment_news.xml" value="0.14375" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/layout/item_news.xml" value="0.264" />
+        <entry key="..\:/capstone/CSD190 (1)/CSD190/app/src/main/res/menu/bottom_nav.xml" value="0.14375" />
       </map>
     </option>
   </component>

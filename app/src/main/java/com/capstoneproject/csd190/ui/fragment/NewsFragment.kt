@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstoneproject.csd190.databinding.FragmentNewsBinding
 import com.capstoneproject.csd190.viewAdapter.NewsAdapter
 import com.capstoneproject.csd190.viewModel.NewsViewModel
+import kotlinx.coroutines.delay
 
 
 class NewsFragment : Fragment() {
@@ -27,6 +28,7 @@ class NewsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        Loading(true)
         if(activity != null){
             val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[NewsViewModel::class.java]
             val news = viewModel.getNews()
@@ -36,7 +38,16 @@ class NewsFragment : Fragment() {
                 layoutManager = LinearLayoutManager(context)
                 setHasFixedSize(true)
                 adapter = newsAdapter
+                Loading(false)
             }
+        }
+    }
+    private fun Loading(state: Boolean){
+        if (state){
+            newsFragmetBinding.progressBar.visibility = View.VISIBLE
+        }
+        else{
+            newsFragmetBinding.progressBar.visibility = View.GONE
         }
     }
 }

@@ -16,6 +16,7 @@
         tools:ignore="AllowBackup">
         <activity
             android:name=".ui.activity.DetailActivityNews"
+            android:theme="@style/CSD190"
             android:exported="false" />
         <activity
             android:name=".ui.activity.SplashScreenActivity"

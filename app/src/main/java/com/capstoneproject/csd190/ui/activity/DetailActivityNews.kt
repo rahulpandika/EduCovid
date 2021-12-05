@@ -33,6 +33,7 @@ class DetailActivityNews : AppCompatActivity() {
 
         binding.tvTitle.text = newsEntity.title
         binding.tvText.text = newsEntity.text
+        binding.tvSource.text = newsEntity.source
 
     }
 
