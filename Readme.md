@@ -1,11 +1,14 @@
-CSD190 - EduCovid (Version 1.1.1)
+CAPSTONE PROJECT
 
-Summary
-EduCovid (Education Covid-19) adalah Aplikasi berisi informasi seputar Covid-19. Di dalam 
-aplikasi ini terdapat fitur-fitur menarik yang membantu memberikan edukasi kesehatan 
-kepada masyarakat seperti gejala dialami saat covid serta membantu
-memberikan berupa tips pencegahan menghadapi Covid-19 dan terdapat fitur jumlah Total Kasus Covid, Total 
-Sembuh dan Total Kematian yang ada di Indonesia
+CSD190 - EduCovid (Version 1.1.2)
+
+EduCovid adalah aplikasi Android yang menampilkan fitur jumlah Total Kasus Covid, Total 
+Sembuh dan Total Kematian yang ada di Indonesia. Data disediakan oleh data.covid19.go.id
+
+Version 1.1.2
+-Update Icon Bottom Navigation
+-Update News
+-Update Kuis Covid-19
 
 Main Feature
 1. Splash Screen
@@ -21,19 +24,20 @@ Main Feature
 11. Info Apps (Penjelasan Aplikasi)
 12. Account Logout
 
-Tech:
+Tech :
 1. API: data.covid19.go.id
 2. Bahasa Pemrograman: Kotlin
-3. Gradle: 7.0.3
+3. Gradle: 7.0.4
 4. IDE: Android Studio 2020.3.1
-5. Kotlin Gradle: 1.6.0
+5. Kotlin Gradle: 1.6.10
 6. Minimum SDK level 21
 
-Libraries diantaranya : 
-Database: Pada login dan register, kami menggunakan database Firebase sebagai utama
-Lottie (Libraries yang menampilkan sebagai animasi dalam bentuk JSON dan menggunakan animasi yang sudah jadi di https://lottiefiles.com),
-Moshi (Moshi sebagai mengubah JSON string ke POJO),
-Navigation (Bottom Navigation dan Mobile Navigation), 
-Retrofit (Retrofit sebagai request data ke server),
-ViewModel dan Material Components
-dsd
+Using :
+1. MVVM
+2. Coroutine
+3. Google SDK Maps
+4. Firebase (Database Login & Register)
+5. LottieFiles
+6. Navigation (Bottom Navigation & Mobile Navigation)
+7. Retrofit
+8. Moshi
