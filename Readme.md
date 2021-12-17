@@ -6,9 +6,9 @@ EduCovid adalah aplikasi Android yang menampilkan fitur jumlah Total Kasus Covid
 Sembuh dan Total Kematian yang ada di Indonesia. Data disediakan oleh data.covid19.go.id
 
 Version 1.1.2
--Update Icon Bottom Navigation
--Update News
--Update Kuis Covid-19
+1. Update Icon Bottom Navigation
+2. Update News
+3. Update Kuis Covid-19
 
 Main Feature
 1. Splash Screen
@@ -19,10 +19,8 @@ Main Feature
 6. Symptons (Gejala Covid)
 7. Prevention (Pencegahan Covid)
 8. Lokasi Penyebaran Virus Corona per Provinsi (Peta versi Satellite dan Terrain)
-9. News
-10. Kuis Covid-19
-11. Info Apps (Penjelasan Aplikasi)
-12. Account Logout
+9. Info Apps (Penjelasan Aplikasi)
+10. Account Logout
 
 Tech :
 1. API: data.covid19.go.id
