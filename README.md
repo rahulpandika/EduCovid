@@ -2,8 +2,7 @@
 
 # EduCovid
 
-## Ketika Code Reviewer menemukan error 
- "Manifest merger failed with multiple errors, see logs"
+## Ketika Code Reviewer menemukan error "Manifest merger failed with multiple errors, see logs"
 
  Maka harus ditambahkan terlebih dahulu di local.properties (SDK Location), dikarenakan demi keamanan credential key MAPS
 
