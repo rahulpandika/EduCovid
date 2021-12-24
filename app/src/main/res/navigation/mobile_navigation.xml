@@ -5,31 +5,31 @@
     app:startDestination="@+id/navigation_home">
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.capstoneproject.csd190.view.home.HomeFragment"
+        android:name="com.capstoneproject.csd190.ui.fragment.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_statistic"
-        android:name="com.capstoneproject.csd190.view.casecovid.CaseCovidFragment"
+        android:name="com.capstoneproject.csd190.ui.fragment.CaseCovidFragment"
         android:label="@string/info_covid"
         tools:layout="@layout/fragment_case_covid" />
 
     <fragment
         android:id="@+id/navigation_prevention"
-        android:name="com.capstoneproject.csd190.view.prevention.PreventionFragment"
+        android:name="com.capstoneproject.csd190.ui.fragment.PreventionFragment"
         android:label="@string/prevention"
         tools:layout="@layout/fragment_prevention" />
 
     <fragment
         android:id="@+id/navigation_news"
-        android:name="com.capstoneproject.csd190.view.news.NewsFragment"
+        android:name="com.capstoneproject.csd190.ui.fragment.NewsFragment"
         android:label="@string/news"
         tools:layout="@layout/fragment_news" />
 
     <fragment
         android:id="@+id/navigation_account"
-        android:name="com.capstoneproject.csd190.view.loginregister.AccountFragment"
+        android:name="com.capstoneproject.csd190.ui.fragment.AccountFragment"
         android:label="@string/account"
         tools:layout="@layout/fragment_account" />
 </navigation>

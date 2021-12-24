@@ -6,14 +6,20 @@
     </issue>
     <issue id="IconLocation">
         <ignore path="src/main/res/drawable/bg_login_register.png" />
+        <ignore path="src/main/res/drawable/ic_account.png" />
         <ignore path="src/main/res/drawable/ic_cough.png" />
         <ignore path="src/main/res/drawable/ic_distance.png" />
+        <ignore path="src/main/res/drawable/ic_home.png" />
+        <ignore path="src/main/res/drawable/ic_info_apps.png" />
+        <ignore path="src/main/res/drawable/ic_maps.png" />
         <ignore path="src/main/res/drawable/ic_mask.png" />
         <ignore path="src/main/res/drawable/ic_mobility.png" />
         <ignore path="src/main/res/drawable/ic_prevention.png" />
-        <ignore path="src/main/res/drawable/ic_splash_logo.png" />
         <ignore path="src/main/res/drawable/ic_statistic.png" />
         <ignore path="src/main/res/drawable/ic_user.png" />
         <ignore path="src/main/res/drawable/ic_washing_hands.png" />
+        <ignore path="src/main/res/drawable/img_prevention.jpg" />
+        <ignore path="src/main/res/drawable/img_vaccine.jpg" />
+        <ignore path="src/main/res/drawable/img_wear_mask.png" />
     </issue>
 </lint>

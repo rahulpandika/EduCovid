@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.loginregister.LoginRegisterActivity">
+    tools:context=".ui.activity.LoginRegisterActivity">
 
     <EditText
         android:id="@+id/et_Username"
@@ -27,6 +27,7 @@
         app:layout_constraintVertical_bias=".2"
         app:layout_constraintWidth_percent=".9"
         tools:ignore="Autofill,RtlHardcoded,RtlSymmetry,TextFields,TextContrastCheck" />
+
 
     <EditText
         android:id="@+id/et_Password"
@@ -59,9 +60,9 @@
         android:backgroundTint="@color/blue_sea"
         android:paddingBottom="2dp"
         android:text="@string/register"
-        android:textAppearance="@style/Text.Button"
         android:textColor="@color/white"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias=".5"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,12 +71,13 @@
         app:layout_constraintWidth_percent=".9" />
 
     <TextView
+        android:id="@+id/tv_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="@string/tv_login"
-        android:textAppearance="@style/Text.DescriptionHeader"
         android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_signup"

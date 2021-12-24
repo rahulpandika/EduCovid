@@ -1,22 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">EduCovid</string>
-
-    <!-- Image Content Description -->
+    <string name="created">Powered by EduCovid</string>
     <string name="image_view">Image View</string>
 
     <!-- Info Apps -->
     <string name="authors">Authors: Ahmad Yulian Dinata dan Rahul Pandika</string>
-    <string name="btn_back">KEMBALI</string>
+    <string name="btn_back">Kembali</string>
     <string name="desc_apps">EduCovid (Education Covid-19) adalah Aplikasi berisi informasi seputar Covid-19 seperti gejala dialami saat covid serta membantu memberikan edukasi kesehatan kepada masyarakat berupa tips pencegahan menghadapi Covid-19.</string>
     <string name="info_apps">Info Apps</string>
-    <string name="version">Version 1.1.2</string>
+    <string name="version">Version 1.1.1</string>
 
     <!-- Login & Register -->
     <string name="email">Alamat E-mail</string>
-    <string name="login">Masuk</string>
-    <string name="logout">Keluar</string>
+    <string name="login">LOGIN</string>
+    <string name="logout">LOGOUT</string>
     <string name="password">Password</string>
-    <string name="register">Daftar</string>
+    <string name="register">SIGN UP</string>
     <string name="tv_login">Sudah punya akun? Geser untuk login</string>
     <string name="tv_signup">Belum punya akun? Daftarkan dirimu</string>
     <string name="tv_welcome">Hello,</string>
@@ -48,12 +47,6 @@
     <string name="tv_case_healed">Total kasus \nSembuh di Indonesia</string>
     <string name="tv_case_dead">Total kasus \nMeninggal di Indonesia</string>
 
-    <!-- Lokasi Penyebaran -->
-    <string name="maps">Lokasi Penyebaran Virus Corona</string>
-    <string name="amount_treated" tools:ignore="PluralsCandidate">Total dirawat adalah %1$,d orang</string>
-    <string name="satellite_maps">Peta Satellite</string>
-    <string name="terrain_maps">Peta Terrain</string>
-
     <!-- Pencegahan -->
     <string name="prevention">Pencegahan</string>
     <string name="prevention_title_header">Langkah Mencegah Penularan Virus Corona</string>
@@ -72,29 +65,14 @@
     <string name="prevention_4">Ketika batuk dan bersin, tutup hidung dan mulut Anda dengan tisu atau lengan atas bagian dalam (bukan dengan telapak tangan).</string>
     <string name="prevention_5">Hindari bepergian ke luar rumah saat Anda merasa kurang sehat, terutama jika Anda merasa demam, batuk dan sulit bernapas. Segera hubungi petugas kesehatan terdekat, dan mintalah bantuan mereka. Sampaikan pada petugas jika dalam 14 hari sebelumnya Anda pernah melakukan perjalanan terutama ke negara atau wilayah terjangkit, atau pernah kontak erat dengan orang yang memiliki gejala yang sama. Ikuti arahan dari petugas kesehatan setempat.</string>
 
-    <!-- News -->
-    <string name="news">Berita</string>
-    <string name="title_news">Judul Berita</string>
-    <string name="desc_news">Deskripsi Berita</string>
-    <string name="source_news">Link Berita</string>
+    <!-- Pencegahan -->
+    <string name="news">News</string>
 
-    <!-- Kuis -->
-    <string name="answer_one">Jawaban Pertama</string>
-    <string name="answer_two">Jawaban Kedua</string>
-    <string name="answer_three">Jawaban Jawaban Ketiga</string>
-    <string name="answer_four">Jawaban Keempat</string>
-    <string name="btn_start">START QUIZ</string>
-    <string name="btn_submit">Submit</string>
-    <string name="btn_finish">Selesai</string>
-    <string name="btn_repeat">Ulangi</string>
-    <string name="next">Next</string>
-    <string name="congratulations">Congratulations!</string>
-    <string name="desc_quiz">Cukup jawab beberapa pertanyaan mudah dan dapatkan informasi mengenai Covid-19</string>
-    <string name="progress_question">1 of 5</string>
-    <string name="result_score">Your Score</string>
-    <string name="score">0/0</string>
-    <string name="quiz">Kuis Covid-19</string>
-    <string name="question">Question</string>
-
+    <!-- Lokasi Penyebaran -->
+    <string name="maps">Lokasi Penyebaran Virus Corona</string>
+    <string name="amount_treated" tools:ignore="PluralsCandidate">Total dirawat adalah %1$,d orang</string>
+    <string name="satellite_maps">Peta Satellite</string>
+    <string name="terrain_maps">Peta Terrain</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

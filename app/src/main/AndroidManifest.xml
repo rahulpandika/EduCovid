@@ -4,19 +4,22 @@
     package="com.capstoneproject.csd190">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_logo"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_logo_round"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/CSD190"
         tools:ignore="AllowBackup">
-
         <activity
-            android:name=".view.splashscreen.SplashScreenActivity"
+            android:name=".ui.activity.DetailActivityNews"
+            android:theme="@style/CSD190"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/CSD190">
             <intent-filter>
@@ -25,53 +28,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".view.loginregister.LoginRegisterActivity"
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.activity.LoginRegisterActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar"
             tools:ignore="LockedOrientationActivity" />
 
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
-
-        <activity
-            android:name=".view.news.DetailNewsActivity"
-            android:exported="false"
-            android:theme="@style/noActionBar" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${GMP_KEY}" />
+            android:value="AIzaSyDGfh44OTTvHbC6L4ZHtAKUV-l_QQnukxo" />
 
         <activity
-            android:name=".view.map.MapActivity"
+            android:name=".ui.activity.MapActivity"
             android:exported="true"
             android:label="@string/maps"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
-        <activity
-            android:name=".view.quiz.QuizActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/noActionBar"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".view.quiz.QuestionActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/noActionBar"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".view.quiz.ResultQuizActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/noActionBar"
-            tools:ignore="LockedOrientationActivity" />
     </application>
+
 </manifest>

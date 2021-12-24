@@ -7,6 +7,7 @@
     android:animateLayoutChanges="true">
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:clipToPadding="false"
@@ -33,6 +34,7 @@
                 android:textAppearance="@style/Text.TitleHeader" />
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
@@ -52,7 +54,6 @@
                 android:letterSpacing="0.1"
                 android:text="@string/how_to_protect"
                 android:textAlignment="center"
-                android:textAppearance="@style/Text.Button"
                 app:cornerRadius="50dp"
                 tools:ignore="TextContrastCheck" />
 
@@ -66,6 +67,7 @@
                 android:textAppearance="@style/Text.TitleHeader" />
 
             <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -73,6 +75,7 @@
                 android:scrollbars="none">
 
                 <LinearLayout
+                    android:id="@+id/prevention"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -101,12 +104,13 @@
                                 tools:ignore="ImageContrastCheck" />
 
                             <TextView
+                                android:id="@+id/tv_fatigue"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="@string/fatigue"
-                                android:textAppearance="@style/Text.Button" />
+                                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
 
@@ -135,12 +139,13 @@
                                 tools:ignore="ImageContrastCheck" />
 
                             <TextView
+                                android:id="@+id/tv_dryCough"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="@string/dryCough"
-                                android:textAppearance="@style/Text.Button" />
+                                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
 
@@ -169,12 +174,13 @@
                                 tools:ignore="ImageContrastCheck" />
 
                             <TextView
+                                android:id="@+id/tv_diarrhea"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="@string/diarrhea"
-                                android:textAppearance="@style/Text.Button" />
+                                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
 
@@ -203,12 +209,13 @@
                                 tools:ignore="ImageContrastCheck" />
 
                             <TextView
+                                android:id="@+id/tv_fever"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="@string/fever"
-                                android:textAppearance="@style/Text.Button" />
+                                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
 
@@ -237,12 +244,13 @@
                                 tools:ignore="ImageContrastCheck" />
 
                             <TextView
+                                android:id="@+id/tv_headache"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="@string/headache"
-                                android:textAppearance="@style/Text.Button" />
+                                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
                 </LinearLayout>

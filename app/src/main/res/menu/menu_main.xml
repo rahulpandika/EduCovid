@@ -3,13 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/item_maps"
-        android:icon="@drawable/ic_location"
+        android:icon="@drawable/ic_filter_list"
         android:title="@string/maps"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/item_quiz"
-        android:icon="@drawable/ic_quiz"
-        android:title="@string/quiz"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/item_info_apps"
