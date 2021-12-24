@@ -5,8 +5,9 @@
 Ketika Code Reviewer menemukan error 
 "Manifest merger failed with multiple errors, see logs"
 
-maka harus ditambahkan terlebih dahulu di local.properties (SDK Location), dikarenakan demi keamanan credential key MAPS
-# Don't Remove, this API KEY Google Maps SDK
+# Maka harus ditambahkan terlebih dahulu di local.properties (SDK Location), dikarenakan demi keamanan credential key MAPS
+
+Don't Remove, this API KEY Google Maps SDK
 GMP_KEY=AIzaSyDGfh44OTTvHbC6L4ZHtAKUV-l_QQnukxo
 
 # CSD190 - EduCovid (Version 1.1.2)
