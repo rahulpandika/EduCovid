@@ -12,9 +12,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
 
-    <style name="noActionBar" parent="Theme.AppCompat.NoActionBar">
+    <style name="noActionBar" parent="CSD190">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
@@ -25,18 +26,17 @@
     </style>
 
     <style name="Text.TitleHeader">
-        <item name="android:fontFamily">@font/chiffon_regular</item>
+        <item name="android:fontFamily">@font/neo_sans_pro_medium</item>
         <item name="android:textSize">21sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Text.SubTitleHeader">
-        <item name="android:fontFamily">@font/chiffon_semi_bold</item>
-        <item name="android:textSize">15sp</item>
     </style>
 
     <style name="Text.DescriptionHeader">
-        <item name="fontFamily">@font/chiffon_medium</item>
-        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Button">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">14sp</item>
     </style>
 </resources>
