@@ -23,24 +23,23 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/tv_name_apps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
             android:gravity="center_horizontal"
             android:text="@string/app_name"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textAppearance="@style/Text.TitleHeader"
+            android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/tv_desc_apps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|end"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="@string/desc_apps" />
+            android:text="@string/desc_apps"
+            android:textAppearance="@style/Text.DescriptionHeader" />
 
         <Button
             android:id="@+id/btn_back"
@@ -48,8 +47,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:letterSpacing="0.1"
             android:text="@string/btn_back"
-            android:textSize="18sp" />
+            android:textAppearance="@style/Text.Button" />
     </LinearLayout>
 
     <com.airbnb.lottie.LottieAnimationView

@@ -20,7 +20,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_card"
+            android:background="@drawable/bg_card_case_covid"
             android:orientation="vertical"
             android:paddingHorizontal="25dp"
             android:paddingVertical="18dp">
@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:text="@string/tv_case_covid"
+                android:textAppearance="@style/Text.TitleHeader"
                 android:textColor="#fff"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -53,6 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/case_covid"
+                    android:textAppearance="@style/Text.DescriptionHeader"
                     android:textColor="#fff"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -63,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="20dp"
-            android:background="@drawable/bg_card"
+            android:background="@drawable/bg_card_case_covid"
             android:orientation="vertical"
             android:paddingHorizontal="25dp"
             android:paddingVertical="18dp">
@@ -73,6 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:text="@string/tv_case_healed"
+                android:textAppearance="@style/Text.TitleHeader"
                 android:textColor="#fff"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -97,6 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/case_covid"
+                    android:textAppearance="@style/Text.DescriptionHeader"
                     android:textColor="#fff"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -106,7 +110,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_card"
+            android:background="@drawable/bg_card_case_covid"
             android:orientation="vertical"
             android:paddingHorizontal="25dp"
             android:paddingVertical="18dp">
@@ -116,6 +120,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:text="@string/tv_case_dead"
+                android:textAppearance="@style/Text.TitleHeader"
                 android:textColor="#fff"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -140,6 +145,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/case_covid"
+                    android:textAppearance="@style/Text.DescriptionHeader"
                     android:textColor="#fff"
                     android:textStyle="bold" />
             </LinearLayout>

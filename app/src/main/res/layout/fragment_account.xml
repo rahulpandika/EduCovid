@@ -26,7 +26,6 @@
             android:layout_height="wrap_content">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/ivUser"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:src="@drawable/ic_user"
@@ -39,14 +38,13 @@
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/tvWelcome"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="100dp"
                 android:gravity="center_horizontal"
                 android:text="@string/tv_welcome"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textAppearance="@style/Text.TitleHeader"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -60,7 +58,7 @@
                 android:gravity="center_horizontal"
                 android:text="@string/username"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textAppearance="@style/Text.DescriptionHeader"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -68,7 +66,6 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:id="@+id/tv_author_apps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
@@ -78,17 +75,17 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btn_logout"
+            android:id="@+id/btnLogout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:letterSpacing="0.1"
             android:text="@string/logout"
-            android:textSize="18sp"
+            android:textAppearance="@style/Text.Button"
             app:cornerRadius="50dp" />
 
         <TextView
-            android:id="@+id/tv_version_apps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
